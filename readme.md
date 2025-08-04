@@ -1,8 +1,8 @@
 # EvolMoE (PYC-Encapsulated Version)
 
-##   Attention
+## ⚠️ Attention
 
-To prevent code plagiarism before official publication, we have encapsulated our source code using `.pyc` files. Only the public training interface is exposed for use.
+To prevent code plagiarism before official publication, we have encapsulated our source code using `.pyc` files. Only the public training interface is exposed for use.  
 This setup allows us to manage and maintain the code securely during the review process.
 
 When executed, the training interface will automatically:
@@ -14,3 +14,4 @@ When executed, the training interface will automatically:
 
 ```bash
 python train_network.py
+
