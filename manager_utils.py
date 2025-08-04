@@ -6,10 +6,8 @@ def _load_module(name, path):
     spec.loader.exec_module(module)
     return module
 
-# 加载 pyc 模块
 utils = _load_module("utils", "utils.pyc")
 
-# 导出你希望暴露的内容
 env_wrapper = utils.env_wrapper
 get_action_info = utils.get_action_info
 reward_recorder = utils.reward_recorder
